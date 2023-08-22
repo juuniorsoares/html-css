@@ -10,69 +10,69 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2">Área</th>
-                <th rowspan="2">Disciplinas</th>
-                <th colspan="2">Notas</th>
-                <th rowspan="2">Média</th>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
             </tr>
                 <tr>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
                 </tr>
         </thead>
 
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
-                <th  class="titulo">Matemática</th>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
                 <td>00.00</td>
                 <td>00.00</td>
                 <td>00.00</td>
             </tr>
             <tr>
-                <th class="titulo">Fisíca</th>
+                <td>Fisíca</th>
                 <td>00.00</td>
                 <td>00.00</td>
                 <td>00.00</td>
             </tr>
              
             <tr>
-                <th class="titulo">Quimíca</th>
+                <td>Quimíca</th>
                 <td>00.00</td>
                 <td>00.00</td>
                 <td>00.00</td>
             </tr>
 
             <tr>
-                <th class="titulo">Biológia</th>
+                <td>Biológia</th>
                 <td>00.00</td>
                 <td>00.00</td>
                 <td>00.00</td>
             </tr>
 
             <tr>
-                <th colspan="4" class="titulo">Média de Exatas</th>
-                <td>00.00</td>
+                <th colspan="4" class="titulo" id="cor" scope="row">Média de Exatas</th>
+                <td id="cor">00.00</td>
             </tr>
 
             <tr>
-                <th rowspan="2">Humanas</th>
-                <th class="titulo">História</th>
-                <td>00.00</td>
-                <td>00.00</td>
-                <td>00.00</td>
-            </tr>
-
-            <tr>
-                <th class="titulo">Geográfia</th>
+                <th rowspan="2" scope="rowgroup">Humanas</th>
+                <td>História</th>
                 <td>00.00</td>
                 <td>00.00</td>
                 <td>00.00</td>
             </tr>
 
             <tr>
-                <th class="titulo" colspan="4">Média de Humanas</th>
+                <td>Geográfia</td>
                 <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+
+            <tr>
+                <th class="titulo" colspan="4" id="cor" scope="row">Média de Humanas</th>
+                <td id="cor">00.00</td>
             </tr>
 
         </tbody>

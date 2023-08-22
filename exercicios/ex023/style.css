@@ -8,6 +8,11 @@ table{
     border-collapse: collapse;
 }
 
+thead{
+    background-color: rgb(125, 125, 125);
+    color: white;
+}
+
 th, td{
     border: 1px solid black;
     padding: 10px;
@@ -17,3 +22,11 @@ th.titulo{
     text-align: left;
 }
 
+#cor{
+    background-color: rgb(125, 125, 125);
+    color: white;
+}
+
+td#cor{
+    font-weight: bolder;
+}
