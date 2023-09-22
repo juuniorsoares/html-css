@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bloco{
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            background-color: rgb(33, 176, 33);
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>APERTE O BOTÃO!</h1>
+    <div id="bloco" class="bloco">Clique aqui!</div> 
+    <input type="button" value="clique aqui!" onclick="analisar()" >
+
+    <script>
+        var a = window.document.getElementById('bloco')
+
+        function analisar(){
+            a.style.background = 'red'
+        }
+    </script>
+    
+</body>
+</html>
