@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* ESTILOS PARA TELAS*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(121, 120, 120);
+    color: white;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu ul{
+    background-color: lightgray;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+menu li{
+    background-color: rgb(85, 84, 84);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
