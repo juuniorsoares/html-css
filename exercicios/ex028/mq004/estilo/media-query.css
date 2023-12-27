@@ -5,11 +5,12 @@
 /* TIPOS DE DEVICE BREAKPOINTS */
 
 
-*{
-    font-family: 'Courier New', Courier, monospace;
-}
-
 @media print{
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     main{
         width: 90vw;
         border: 2px solid black;
@@ -32,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {  /* TABLETS */
+@media screen  and  (min-width: 992px)  and  (max-width: 1023px) {  /* TABLETS */
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -45,7 +46,7 @@
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){  /* DESKTOPS */
+@media screen and  (min-width: 1024px)  and  (max-width: 1199px){  /* DESKTOPS */
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -57,7 +58,7 @@
     img#tv{display: none;}
 }
 
-@media screen and (min-width: 1200px){  /* TELAS GRANDES */
+@media screen and  (min-width: 1200px){  /* TELAS GRANDES */
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
