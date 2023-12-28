@@ -21,11 +21,12 @@
         text-shadow: none;
     }
 
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#pc{display: none;}
-    img#print{display: block;}
-    img#tv{display: none;}
+   
+    img#phone{ display:  none; }
+    img#tablet{ display:  none; }
+    img#pc{ display:  none; }
+    img#print{ display:  block; }
+    img#tv{ display:  none; }
 
     main::after{
         content: 'Esse impresso foi feito pelo www.cursoemvideo.com';
@@ -33,39 +34,41 @@
     }
 }
 
-@media screen  and  (min-width: 992px)  and  (max-width: 1023px) {  /* TABLETS */
+@media screen and (min-width: 992px) and (max-width: 1023px) {  /* TABLETS */
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
 
-    img#phone{display: none;}
-    img#tablet{display: block;}
-    img#pc{display: none;}
-    img#print{display: none;}
-    img#tv{display: none;}
+    img#phone{ display:  none; }
+    img#tablet{ display:  block; }
+    img#pc{ display:  none; }
+    img#print{ display:  none; }
+    img#tv{ display:  none; }
 
 }
 
-@media screen and  (min-width: 1024px)  and  (max-width: 1199px){  /* DESKTOPS */
+@media screen and (min-width: 1024px) and (max-width: 1199px){  /* DESKTOPS */
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
+    
+    img#phone{ display:  none; }
+    img#tablet{ display:  none; }
+    img#pc{ display:  block; }
+    img#print{ display:  none; }
+    img#tv{ display:  none; }
 
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#pc{display: block;}
-    img#print{display: none;}
-    img#tv{display: none;}
 }
 
-@media screen and  (min-width: 1200px){  /* TELAS GRANDES */
+@media screen and (min-width: 1200px){  /* TELAS GRANDES */
     body{
         background-image: url(../imagens/back-tv.jpg);
     }
+    
+    img#phone{ display:  none; }
+    img#tablet{ display:  none; }
+    img#pc{ display:  none; }
+    img#print{ display:  none; }
+    img#tv{ display:  block; }
 
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#pc{display: none;}
-    img#print{display: none;}
-    img#tv{display: block;}
 }
